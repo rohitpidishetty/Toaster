@@ -41,7 +41,7 @@ export function initToast() {
     opacity: 0.75;
     color: white;
     position: fixed;
-    z-index: -1;
+    z-index: 2;
     top: 0;
     padding-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto,
