@@ -12,9 +12,13 @@ export function initToast() {
   });
 }
 
-export function createToast( text) {
+export function createToast(btn, text) {
+  btn.disable = true;
   document.getElementById("toast").classList.toggle("pull");
   document.getElementById("text").innerHTML = text;
   document.querySelector("#toast").classList.remove("hide");
   document.getElementById("progressBar").classList.toggle("incBar");
+  setTimeout(() => {
+    btn.disabled = false;
+  }. 1500);
 }
