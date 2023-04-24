@@ -21,7 +21,7 @@ export function initToast() {
       margin-top: 300px;
     } 
     to {
-      margin-top: 10px;
+     top: 0;
     }
   }
   .x_23d__hd {
