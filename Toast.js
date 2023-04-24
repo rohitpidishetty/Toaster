@@ -1,5 +1,5 @@
 export function preload() {
-document.body.innerHTML += '<style>._i2__Lk {animation: __inX_4 3s ease-out;}@keyframes __inX_4 {from {width: 0;}to {width: calc(5);}}.x_23d__hd {animation: _54fs__r 3s;position: fixed;z-index: 1000;}@keyframes _54fs__r {from {margin-top: 200px;}}.hide {visibility: hidden;width: 0;height: 0;}</style>';
+document.body.innerHTML += '<style>._i2__Lk {animation: __inX_4 3s ease-out;}@keyframes __inX_4 {from {width: 0;}to {width: calc(5);}}.x_23d__hd {animation: _54fs__r 3s;position: fixed;z-index: 1000;}@keyframes _54fs__r {from {margin-top: 200px;}}.x_23d__hd {visibility: hidden;width: 0;height: 0;}</style>';
 }
 
 export function initToast() {
