@@ -19,6 +19,9 @@ export function initToast() {
   @keyframes _54fs__r {
     from {
       margin-top: 300px;
+    } 
+    to {
+      margin-top: 10px;
     }
   }
   .x_23d__hd {
