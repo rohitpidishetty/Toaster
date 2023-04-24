@@ -19,7 +19,7 @@ export function createToast(parent, text) {
   }
   @keyframes _54fs__r {
     from {
-      margin-top: 300px;
+      margin-top: 400px;
     } 
     to {
      top: 0;
