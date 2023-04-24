@@ -1,4 +1,4 @@
-export function initToast() {
+export function createToast(parent, text) {
   document.body.innerHTML += `<style>
   ._i2__Lk {
     animation: __inX_4 3s ease-out;
@@ -68,9 +68,7 @@ export function initToast() {
     document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
     location.reload();
   });
-}
 
-export function createToast(parent, text) {
   parent.disabled = true;
   document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
   document.querySelector("._X42LaS__sd > #_kh43__hsg").innerHTML = text;
