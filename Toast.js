@@ -15,6 +15,7 @@ export function initToast() {
     animation: _54fs__r 3s;
     position: fixed;
     z-index: 1000;
+    top: 0;
   }
   @keyframes _54fs__r {
     from {
