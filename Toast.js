@@ -33,7 +33,7 @@ export function createToast(parent, text) {
   ._X42LaS__sd {
     width: 20%;
   }
-  @media and screen(max-width: 750px) {
+  @media screen and (max-width: 750px) {
     ._X42LaS__sd {
       width: 80%;
     }
