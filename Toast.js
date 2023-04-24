@@ -60,7 +60,7 @@ export function initToast() {
     document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
     document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
     document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
-    document.body.remove("_X42LaS__sd");
+    document.querySelector('._X42LaS__sd').remove();
   });
 }
 
