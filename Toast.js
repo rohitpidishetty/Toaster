@@ -20,15 +20,17 @@ export function initToast() {
     document.querySelector("._X42LaS__sd").clientWidth - 25 + "px";
   document.querySelector("._X42LaS__sd > img").addEventListener("click", () => {
     document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
-    document.querySelector("._X42LaS__sd").classList.toggle("x_23d__hd");
+    document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
+    document.querySelector("._X42LaS__sd").classList.add("_gU_L23");
   });
 }
 
 export function createToast(parent, text) {
   parent.disable = true;
-  document.querySelector("._X42LaS__sd").classList.toggle("x_23d__hd");
+  document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
   document.querySelector("._X42LaS__sd > #_kh43__hsg").innerHTML = text;
   document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
+  document.querySelector("._X42LaS__sd").classList.remove("_gU_L23");
   setTimeout(() => {
     parent.disabled = false;
   }, 1500);
