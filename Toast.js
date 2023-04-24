@@ -42,6 +42,7 @@ export function initToast() {
     color: white;
     position: fixed;
     z-index: -1;
+    top: 0;
     padding-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto,
       Oxygen, Ubuntu, Cantarell, sans-serif;">
