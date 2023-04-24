@@ -30,12 +30,19 @@ export function createToast(parent, text) {
     width: 0;
     height: 0;
   }
+  ._X42LaS__sd {
+    width: 20%;
+  }
+  @media and screen(max-width: 750px) {
+    ._X42LaS__sd {
+      width: 80%;
+    }
+  }
 </style>
 <div
   class="_X42LaS__sd x_23d__hd"
   style="
     margin: 10px;
-    width: 20%;
     border-radius: 5px;
     background-color: black;
     opacity: 0.75;
@@ -68,7 +75,6 @@ export function createToast(parent, text) {
     document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
     location.reload();
   });
-
   parent.disabled = true;
   document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
   document.querySelector("._X42LaS__sd > #_kh43__hsg").innerHTML = text;
