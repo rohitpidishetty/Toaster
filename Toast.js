@@ -36,6 +36,7 @@ export function initToast() {
     background-color: black;
     opacity: 0.75;
     color: white;
+    position: fixed;
     z-index: -1;
     padding-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto,
@@ -60,7 +61,7 @@ export function initToast() {
     document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
     document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
     document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
-    location.reload();
+    document.querySelector("._X42LaS__sd").remove();
   });
 }
 
