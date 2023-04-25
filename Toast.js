@@ -33,6 +33,20 @@ export function createToast(parent, text) {
   ._X42LaS__sd {
     width: 20%;
   }
+  ._mXl__1 {
+    animation: _mXx__ll 3s;
+  }
+  @keyframes _mXx__ll {
+    0% {
+      margin-left: -2%;
+    }
+    25% {
+      margin-left: 5%;
+    }
+    50% {
+      margin-left: -50%;
+    }
+  }
   @media screen and (max-width: 750px) {
     ._X42LaS__sd {
       width: 80%;
@@ -70,9 +84,12 @@ export function createToast(parent, text) {
   document.querySelector("._X42LaS__sd > img").style.marginLeft =
     document.querySelector("._X42LaS__sd").clientWidth - 25 + "px";
   document.querySelector("._X42LaS__sd > img").addEventListener("click", () => {
-    document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
-    document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
-    document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
+    document.querySelector("._X42LaS__sd").classList.toggle("_mXl__1");
+    setTimeout(() => {
+      document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
+      document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
+      document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
+    }, 2000);
     location.reload();
   });
   parent.disabled = true;
