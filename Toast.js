@@ -141,12 +141,6 @@ export function createToast(parent, text, status) {
       location.reload();
     }, 2000);
   });
-  document.querySelector("._X42LaS__sd").addEventListener("mouseover", e => {
-    e.target.classList.add("_p_gbd3__");
-  });
-  document.querySelector("._X42LaS__sd").addEventListener("mouseout", e => {
-    e.target.classList.remove("_p_gbd3__");
-  });
   parent.disabled = true;
   document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
   document.querySelector(
