@@ -89,8 +89,8 @@ export function createToast(parent, text) {
       document.getElementById("_fjhgGK_Ld").classList.toggle("_i2__Lk");
       document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
       document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
+       location.reload();
     }, 2000);
-    location.reload();
   });
   parent.disabled = true;
   document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
