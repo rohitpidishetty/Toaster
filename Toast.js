@@ -90,7 +90,7 @@ export function createToast(parent, text) {
       document.querySelector("._X42LaS__sd").classList.add("x_23d__hd");
       document.querySelector("._X42LaS__sd").classList.toggle("_gU_L23");
        location.reload();
-    }, 4000);
+    }, 3000);
   });
   parent.disabled = true;
   document.querySelector("._X42LaS__sd").classList.remove("x_23d__hd");
